@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4267b2; /* Color similar al de Facebook */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 100px; /* Ajuste para el espacio debajo del contenido */
+}
+
+#login-section {
+    text-align: center;
+}
+
+.interact-btn {
+    background-color: #ff7f50; /* Color Naranja */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Para quitar el subrayado en los enlaces */
+    display: inline-block; /* Para que los enlaces tengan un ancho como los botones */
+}
+
+.login-btn {
+    background-color: #4285F4; /* Azul similar a Google */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.page-btn {
+    background-color: #4285F4; /* Azul similar a Google */
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 14px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Para quitar el subrayado en los enlaces */
+    display: inline-block; /* Para que los enlaces tengan un ancho como los botones */
+}
+
+.page-btn:hover {
+    background-color: #3367d6; /* Cambio de color al pasar el mouse */
+}
+
+.logo {
+    max-width: 100px; /* Establece un tamaño máximo */
+    height: auto;
+    margin-right: 10px;
+    display: block; /* Para evitar problemas de alineación vertical */
+}
+
+.logo1 {
+    max-width: 100px; /* Establece un tamaño máximo */
+    height: auto;
+    margin-right: 10px;
+    display: block; /* Para evitar problemas de alineación vertical */
+}
+
+#login-section img {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    height: 300px; /* Mantiene la proporción original de la imagen */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+    border-radius: 8px; /* Bordes redondeados, ajusta según sea necesario */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilos para las nuevas columnas */
+.new-columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    background-color: #f2f2f2; /* Color de fondo para la columna izquierda */
+}
+
+.right-column {
+    background-color: #e0e0e0; /* Color de fondo para la columna derecha */
+}
+
+/* Estilos para el nuevo formulario */
+.new-columns form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.new-columns label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.new-columns input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.new-columns .submit-btn {
+    background-color: #4285F4; /* Azul similar a Google */
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.new-columns .submit-btn:hover {
+    background-color: #3367d6;
+}
+
+/* Revertir cambios para los botones y pie de página originales */
+#login-section .interact-btn {
+    display: inline-block;
+}
+
+#login-section .login-btn {
+    background-color: #4285F4;
+}
+
+/* ... (otros estilos) ... */
+
+
+/* Estilo para el botón "Siguiente Página" */
+.next-page-btn {
+    background-color: #4285F4; /* Azul similar a Google */
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.next-page-btn:hover {
+    background-color: #3367d6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
